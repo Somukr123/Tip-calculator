@@ -1,0 +1,121 @@
+body{
+    font-family: roboto;
+    background-color:  rgb(77, 175, 182);
+}
+#container{
+    height: 530px;
+  width: 350px;
+  margin: 100px auto;
+  background: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px; 
+
+}
+h1{
+    margin: 0px;
+    background-color: #3b408a;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family:  Helvetica;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+#calculator{
+    text-align:left;
+}
+p {
+    padding-left: 20px;
+  }
+  
+  input {
+    padding-left: 15px;
+  }
+  
+  #billamt {
+    font-size: 14px;
+    color: black;
+    background-color: whitesmoke;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  #billamt:focus {
+    background: #fff;
+    border: 3px solid #249ff1;
+    outline: none;
+  }
+  
+  #peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color:black;
+    background-color: #f7f7f7;
+    font-size: 14px;
+  }
+  
+  .dollarSign {
+    display: inline;
+  }
+  
+  #service{
+    padding: 10px 10px 15px 15px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  #service option:hover{
+      background-color: #249ff1
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: rgb(8, 104, 29);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background:#cc3f63;
+    border-bottom:gray;
+    color:white;
+    
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #totaltip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totaltip:before {
+    content: "TIP AMOUNT";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
